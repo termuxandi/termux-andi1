@@ -1,0 +1,190 @@
+#usr/bin/bash
+clear
+bi='\33[34;1m' #biru
+ij='\33[32;1m' #ijo
+pr='\33[35;1m' #purple
+cy='\33[36;1m' #cyan
+me='\33[31;1m' #merah
+pu='\33[37;1m' #putih
+ku='\33[33;1m' #kuning
+
+echo
+figlet -f slant  "HACKING"|lolcat
+
+figlet -f slant "😃$$$$"|lolcat
+sleep 1
+echo $bi"    =======================================|"
+echo $me"     #  ===================================|"
+sleep 1
+echo $ij"     #   >> AUTHOR  : ANDIELIS            #"
+echo $bi"     #  ===================================|"
+sleep 1
+echo $ij"     #   >> GITHUB  : termuxandi          #"
+echo $bi"    =======================================|"
+echo $me"     #  ===================================|"
+sleep 1
+echo $ij"     #   >> YOUTUBE : MR_Termux Andi      #"
+echo $bi"    =======================================|"
+echo
+sleep 1
+echo $ku"         # ✓✓✓✓✓✓✓[ WELCOME ]✓✓✓✓✓✓✓ #"
+sleep 1
+echo $pr"      # SELAMAT DATANG DI TOLLS HACKING #"
+sleep 1
+echo $ku"                # PILIH MENU #"
+
+echo
+echo $ki"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+echo $cy"@           💗💗💗💗💗💗               @@"
+echo $cy"@              sayang                  @@"
+echo $cy"@           💓💓💓💓💓💓               @@"
+echo $cy"@                🔥                    @@"
+echo $ku"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+sleep 1
+echo
+echo $pr"[01] "$ku". No login dark FB"
+sleep 1
+echo $pr"[02] "$ku". BruteMBF FB"
+sleep 1
+echo $pr"[03] "$ku". pishing FB"
+sleep 1
+echo $pr"[04] "$ku". dark premium FB"
+sleep 1
+echo $pr"[05] "$ku". dark FB"
+sleep 1
+echo $pr"[06] "$ku". Sensei Crack Email/FB"
+sleep 1
+echo $pr"[07] "$ku". hacking tolls FB"
+sleep 1
+echo $pr"[08] "$ku". reportF FB"
+sleep 1
+echo $pr"[09] "$ku". crack FB"
+sleep 1
+echo $pr"[10] "$ku". infoData FB"
+sleep 1
+echo $pr"[11] "$ku". autolike FB"
+sleep 1
+echo $pr"[12] "$ku". INSTALL BAHAN"
+sleep 1
+echo $pr"[13] "$ku". link youtube"
+echo
+echo $ku">>>>>>|"
+echo $ku">>>>>>|======>✓ : >>>>>>>"
+      read -p "|___--->✓ : pilih : " pil :
+#batas gan
+if [ $pil = 1 ]
+then
+git clone https://github.com/FR13ND8/BruteFb
+ls
+cd BruteFb
+ls
+python2 brute.py
+fi
+#batas gan
+if [ $pil = 2 ]
+then
+git clone https://github.com/pirmansx/mbf
+ls
+cd mbf
+ls
+python2 MBF.py
+fi
+#batas gan
+if [ $pil = 3 ]
+then
+git clone https://github.com/Cesar-Hack-Gray/SocialSploit
+ls
+cd SocialSploit
+ls
+bash install.sh
+bash Sploit
+fi
+#batas gan
+if [ $pil = 4 ]
+then
+git clone https://github.com/TheMagizz/DarkPremium
+ls
+cd DarkPremium
+python2 DarkFB.py
+fi
+#batas gan
+if [ $pil = 5 ]
+then
+git clone https://github.com/blackcodercrush/hack-facebook-teman
+ls
+cd hack-facebook-teman
+python2 hack-fb.py
+fi
+#batas gan
+if [ $pil = 6 ]
+then
+git clone https://github.com/BOT-033/Sensei
+ls
+cd Sensei
+python2 main.py
+fi
+#batas gan
+if [ $pil = 7 ]
+then
+git clone https://github.com/DarkCurut08/DarkCurut08
+ls
+cd DarkCurut08
+sh Moreno77.sh
+fi
+#batas gan
+if [ $pil = 8 ]
+then
+git clone https://github.com/IlayTamvan/Report
+ls
+cd Report
+unzip Report.zip
+
+python2 Report.py
+fi
+#batas gan
+if [ $pil = 9 ]
+then
+git clone https://github.com/AMVengeance/FB-React
+ls
+cd FB-React
+bash start
+fi
+#batas gan
+if [ $pil = 10 ]
+then
+git clone https://github.com/FR13ND8/InfoFB
+ls
+cd InfoFB
+ls
+pip2 install -r requirements.txt
+python2 info.py
+fi
+#batas gan
+if [ $pil = 11 ]
+then
+git clone https://github.com/FR13ND8/autolike
+ls
+cd autolike
+php autolike.php
+fi
+#batas gan
+if [ $pil = 12 ]
+then
+pkg update && pkg upgrade
+pkg install python
+pkg install python2
+pkg install git
+pkg install cowsay
+pkg install php
+pkg install clang
+pkg install figlet
+pip install lolcat
+pip install requests
+pip install mechanize
+pip install bs4
+fi
+#batas gan
+if [ $pil = 13 ]
+then
+echo "Kalau ingin lihat lebih lengkap kalian copy link youtube ini https://www.youtube.com/channel/UCBzB18lcyrAUkfilZTP195w" | lolcat
+fi
