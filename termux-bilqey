@@ -16,29 +16,28 @@ sleep 1
 echo $bi"    =======================================|"
 echo $me"     #  ===================================|"
 sleep 1
-echo $ij"     #   >> AUTHOR  : ANDIELIS            #"
+echo $ij"     #   >> AUTHOR  : PANTEK BERBULU 😂😁           #"
 echo $bi"     #  ===================================|"
 sleep 1
-echo $ij"     #   >> GITHUB  : termuxandi          #"
+echo $ij"     #   >> GITHUB  : BILCYBER          #"
 echo $bi"    =======================================|"
 echo $me"     #  ===================================|"
 sleep 1
-echo $ij"     #   >> YOUTUBE : MR_Termux Andi      #"
+echo $ij"     #   >> BACOT KELEN :  💋💋     #"
 echo $bi"    =======================================|"
 echo
 sleep 1
 echo $ku"         # ✓✓✓✓✓✓✓[ WELCOME ]✓✓✓✓✓✓✓ #"
 sleep 1
-echo $pr"      # SELAMAT DATANG DI TOLLS HACKING #"
+echo $pr"      # SELAMAT DATANG DI CYBER ACH ID #"
 sleep 1
-echo $ku"                # PILIH MENU #"
-
+echo $ku"                # COLI ANJAY 🔛😆#"
 echo
 echo $ki"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-echo $cy"@           💗💗💗💗💗💗               @@"
-echo $cy"@              sayang                  @@"
-echo $cy"@           💓💓💓💓💓💓               @@"
-echo $cy"@                🔥                    @@"
+echo $cy"@    BACOT      💗💗💗💗💗💗   😍            @@"
+echo $cy"@       ACH ID       BIL QEY CYBER😍                 @@"
+echo $cy"@     HACK FB      💓💓💓💓💓💓      😍         @@"
+echo $cy"@    💋💓            🔥         😍           @@"
 echo $ku"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 sleep 1
 echo
@@ -83,7 +82,7 @@ fi
 #batas gan
 if [ $pil = 2 ]
 then
-git clone https://github.com/pirmansx/mbf
+git clone https://github.com/Bilqey/mbf
 ls
 cd mbf
 ls
